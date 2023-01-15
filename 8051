@@ -1,0 +1,24 @@
+1. Diffrence between  Microprocessor and Microcontroller ?
+-> Microprocessor is general purpose CPU.
+-> Microcontroller is combinatiom of cpu, memory and device controller embedded int single  chip.
+-> Microprocessor is called is chip on a computer.
+-> Microcontroller is called system on a chip.
+-> Microprocessor power consumption is High.
+-> Microcontroller power consumption is Less.
+-> Microprocessor  memory size can be changed.
+-> Microcontroller memory size can not be changed.
+-> Microprocessor faster campared to the microcontroller.
+-> Microcontroller slower campared to the Microprocessor.
+
+2. Features of Microcontroller ?
+-> 8051 is original designer was Intel.
+-> 8051 is 8 bits CISC and Harvard architecher based microcontroller.
+-> 8051 is available in 40 pins.
+-> size of ROM is 4 kb.
+-> size of RAM is 128 bytes.
+-> 8051 has 4 number of IO ports(p0,p1,p2,p3).Each ports consists of a 8 IO pins.
+-> 8051 has two 16 bits Timer and counter.
+-> 8051 has full duplex UART.
+-> 8051 has 6 numbers of interrupts.
+-> Size of address bus is 16 bits and data bus is 8 bits.
+
