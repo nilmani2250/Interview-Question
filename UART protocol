@@ -1,0 +1,82 @@
+1. UART
+-> the uart is a parallel in serial-out and serial in parallel out device.
+-> It is part of hardware.
+
+2. Features of UART protocol.
+-> Uart was designed by an gordon bell.
+-> Uart is two wired comminication protocol
+   -> TXD(transmitted data)
+   -> RXD(recive data)
+-> Uart is designed for peer to peer communication
+-> Uart is full duplex communication protocol.
+-> Uart is desinged asyncronous and syncronous serial communication.
+-> long distance communication is possible by using UART.
+-> Maximum speed of UART is 1 mbps
+-> data transfer direction for LSB to MSB
+-> parity checking is error detection method used in a UART protocol.
+-> Size of standard data frame of the UART is 10 bits.
+
+3. Baudarte
+-> No of bits transmitted or recieved per second.
+list of the baudarte :- 110 bps,4800bps,7200bps,9600bps.
+
+4. Synchronous serial communication
+->in synchronous communication microcontroller is master device used is slave.
+-> max.speed of master should be eqqual or less than slave not more than slave then no synchronization will happen.
+-> Master speed is decided by programmer we have to control.
+
+5. Asynchronous serial communication
+-> A common clock line is not used between transmitter and reciever.
+-> Speed/baudrate is a major parameter used for synchronization.
+-> In case of asynchronous speed of transmitter and reciver should be same.
+
+6. SFR is used to communication with UART
+  -> setting 
+  -> Sending
+  -> Recieving 
+  -> monitor status
+ 
+7. List of 8051 UART SFRs
+  -> SBUF
+  -> SCON
+  -> TMOD
+  -> TCON
+  -> TH1
+
+8. SBUF(serial buffer)
+ -> It is transmitter and reciver buffer of 8051 UART
+ -> size is 1 byte
+ -> while transmitting SBUF acts as transmitter buffer and whil recievinf it acts as RX-buffer
+
+9. SCON 
+-> reset value of this register is 0x0
+   -: SM0
+   -: SM1
+   -: SM2
+   -: REN (Recive Enable)
+   -: TB8
+   -: RB8
+   -: TI (Transmitted interrupt flag)
+   -: RI (reciever interrupt flag)
+
+10. what is Interrupts ?
+-> An interrupt is a signal given to the CPU that causes the CPU to tompororily work on a diffrent takes and then later return
+  to previous task.
+
+11. Interrupts Handling 
+-> we use cobination of both to write embedded program.
+ 
+12. Interrupts metthod
+-> In the interrup metthod whenever any device needs CPU service the device notifier the CPU by sending it an interrupt signal.
+  
+13. polling Method
+-> polling method is contionously monitoring IO pins and register flag.
+
+14. List of 8051 Interrupts
+  1.Reset(non-maskable)
+  2.External interrupt
+  3.Timer 0 interrupt
+  4.External interrupt
+  5. Timer interrupt
+  6. Uart interrupt
+  
