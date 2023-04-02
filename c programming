@@ -33,6 +33,11 @@ which we can process data indirectly.
     Run time Error are three type
     -> Segmentation fault
     -> Floating point Exception
+    
+    
+    
+ What is static functions in c ?
+ WWhat is malloc 
     -> Bus Error
 
 
@@ -144,4 +149,18 @@ which we can process data indirectly.
    A void pointer is a pointer that has no associated data type with it.
    A void pointer can hold address of any type and can be typcasted to any type.
    
- 27.  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
