@@ -1,0 +1,111 @@
+*********Big Endian : - *******
+#include <stdio.h>
+int main()
+{
+    unsigned int num = 0x12345678;
+    unsigned char *ptr = (unsigned char *)&num;
+
+    printf("Original number: 0x%x\n", num);
+
+
+    printf("Bytes in big-endian order: ");
+    for(int i = sizeof(num)-1; i >= 0; i--)
+    {
+        printf("%02x ", ptr[i]);
+    }
+    printf("\n");
+
+    return 0;
+}
+*******************************************
+****** Littile Endian : - ***************
+
+#include <stdio.h>
+int main()
+{
+    unsigned int num = 0x12345678;
+    unsigned char *ptr = (unsigned char *)&num;
+
+    printf("Memory representation of  little-endian: ");
+    for (int i = 0; i < sizeof(num); i++)
+    {
+        printf("%02X ", *(ptr + i));
+    }
+    printf("\n");
+
+    return 0;
+}
+**************************************************
+
+************Bit Swapped :- **********************
+
+#include <stdio.h>
+int main()
+{
+    int num = 90;
+    int swapped;
+
+    swapped = ((num & 0xF0) >> 4) | ((num & 0x0F) << 4);
+
+    printf("Swapped number (binary): ");
+    for (int i = 7; i >= 0; i--)
+    {
+        printf("%d", (swapped >> i) & 1);
+    }
+    printf("\n");
+
+    return 0;
+}
+******************************************
+********* Bitwise Odd and Even : - ********************
+#include<stdio.h>
+int main()
+{
+        int x;
+        printf("Enter the number/n");
+        scanf("%d",&x);
+
+        if(x & 1)
+        {
+                printf("Odd");
+        }
+        else
+        {
+                printf("Even");
+        }
+
+        return 0;
+}
+***********************************************
+************* Memory Management :- *******************
+
+#include <stdio.h>
+#include <stdlib.h>
+int globalVar = 100;
+void staticExample()
+{
+    static int staticVar = 0;
+    staticVar++;
+    printf("Static variable: %d\n", staticVar);
+}
+
+int main()
+{
+    int localVar = 10;
+
+    int* heapVar = (int*)malloc(sizeof(int));
+    *heapVar = 20;
+
+    printf("Global variable: %d\n", globalVar);
+    printf("Local variable: %d\n", localVar);
+    printf("Heap variable: %d\n", *heapVar);
+
+    staticExample();
+    staticExample();
+    staticExample();
+
+    free(heapVar);
+
+    return 0;
+}
+***************************************************************
