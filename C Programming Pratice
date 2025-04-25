@@ -109,3 +109,26 @@ int main()
     return 0;
 }
 ***************************************************************
+
+
+****** Write a program to find whether the given number is even or odd using bitwise operators *****
+
+#include <stdio.h>
+void checkEvenOdd(int num) {
+    if (num & 1) {
+        printf("%d is ODD\n", num);
+    } else {
+        printf("%d is EVEN\n", num);
+    }
+}
+
+int main() {
+    int number;
+
+    printf("Enter a number: ");
+    scanf("%d", &number);
+
+    checkEvenOdd(number);
+
+    return 0;
+}
