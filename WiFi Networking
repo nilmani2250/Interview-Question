@@ -1,0 +1,81 @@
+Wi-Fi and Networking
+Wireless Connection Process
+Why Auth method is open system in WPA2 Personal
+What are the IEs that are primarily needed by client from AP and vice versa
+How does client determine the APs authentication type
+Reasons for authentication failure
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+       Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+       How MICs are calculated
+How incorrect password is identified by AP  
+Reasons for association failure
+Different types of AKM suites
+Key sharing with all IEs in M1-M4
+How MICs are calculated
+How incorrect password is identified by AP  
+PMK derivation     
+PTK, KEK, KCK, GTK derivations   
+Dissociation and deauth frame contents and reason codes
+802.11r - Fast Roaming Key Sharing
+RSN IE content
+MD IE content
+FT IE content
+802.11k - packet contents and use cases for Neighbour Report
+802.11v - packet contents and use cases
+How to debug wireless disconnectivity issues in an end user setup - with limited resources (AP only)
+DHCP
+DHCP options
+How discover frame is shared by AP fo the router and network - packet flow
+DORA
+DHCP over mesh APs - packet flow
