@@ -1,0 +1,170 @@
+This structured plan will help you strengthen your intermediate C programming skills with a focus on pointers, memory management, data structures, and problem-solving.
+
+Week 1: Pointers & Memory Management
+Day 1-2: Pointer Basics
+Revise pointer arithmetic (ptr + n, ptr - ptr, *ptr++, etc.)
+
+Solve:
+
+Swap two numbers using pointers
+
+Implement strlen() and strcpy() using pointers
+
+Find the sum of array elements using pointers
+
+Day 3-4: Dynamic Memory Allocation
+Practice malloc, calloc, realloc, and free
+
+Solve:
+
+Dynamically allocate a 2D array
+
+Resize an array using realloc
+
+Detect memory leaks using Valgrind (if on Linux)
+
+Day 5-6: Advanced Pointer Concepts
+Double pointers and pointer-to-pointer
+
+Function pointers (callback mechanisms)
+
+Solve:
+
+Implement a function that takes a function pointer
+
+Reverse a string using pointers
+
+Find the largest element in an array using pointers
+
+Day 7: Self-Assessment
+Solve:
+
+Merge two sorted arrays into a third array (dynamic)
+
+Implement a dynamic stack (LIFO) using malloc/free
+
+Week 2: Data Structures (Linked Lists & Strings)
+Day 1-2: Singly Linked Lists
+Implement:
+
+Insertion (beginning, end, middle)
+
+Deletion (by value, by position)
+
+Reverse (iterative & recursive)
+
+Detect a loop (Floyd’s Cycle-Finding Algorithm)
+
+Day 3-4: Doubly Linked Lists & Circular Lists
+Implement:
+
+Insert/delete in a doubly linked list
+
+Convert singly linked list to circular
+
+Josephus problem (circular list application)
+
+Day 5-6: String Manipulation
+Solve:
+
+Implement strstr() (substring search)
+
+Remove duplicates from a string
+
+Check if two strings are anagrams
+
+Longest palindromic substring (medium)
+
+Day 7: Self-Assessment
+Solve:
+
+Clone a linked list with random pointers (hard)
+
+Implement atoi() with edge cases (negative numbers, overflow)
+
+Week 3: Trees & Recursion
+Day 1-2: Binary Trees
+Implement:
+
+Inorder, Preorder, Postorder traversals (recursive & iterative)
+
+Find height of a binary tree
+
+Check if a tree is balanced
+
+Day 3-4: Binary Search Trees (BST)
+Implement:
+
+Insertion & Deletion in BST
+
+Search for a key
+
+Find the lowest common ancestor (LCA)
+
+Validate BST (check if a tree is BST)
+
+Day 5-6: Recursion & Backtracking
+Solve:
+
+Fibonacci series (recursive & memoization)
+
+Tower of Hanoi
+
+Generate all permutations of a string
+
+N-Queens problem (if time permits)
+
+Day 7: Self-Assessment
+Solve:
+
+Find the diameter of a binary tree
+
+Print all root-to-leaf paths in a tree
+
+Week 4: Advanced Problems & System Programming
+Day 1-2: Bit Manipulation
+Solve:
+
+Count set bits in a number (Brian Kernighan’s method)
+
+Check if a number is a power of 2
+
+Swap two numbers without a temporary variable
+
+Find the only non-repeating element in an array (XOR method)
+
+Day 3-4: File I/O & Multithreading Basics
+Practice:
+
+Read/write structures to a file
+
+Implement a simple text file copy program
+
+(If on Linux) Basic threading with pthread (sum of array using threads)
+
+Day 5-6: Algorithmic Problems
+Solve:
+
+Implement QuickSort or MergeSort
+
+Find the maximum subarray sum (Kadane’s Algorithm)
+
+Implement a hash table (chaining method)
+
+Day 7: Mock Interview
+Solve 2-3 problems under time constraints (e.g., Leetcode Medium):
+
+Reverse words in a string ("hello world" → "world hello")
+
+Detect cycle in a linked list (return the starting node)
+
+Find the kth smallest element in a BST
+
+Final Tips
+Daily Practice: Spend at least 1-2 hours/day coding.
+
+Debugging: Use gdb (Linux) or IDE debuggers to trace issues.
+
+Memory Management: Always check malloc return values and free memory.
+
+Optimization: After solving, think about time/space complexity improvements.
