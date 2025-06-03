@@ -19,3 +19,7 @@
  Write a program which having  static variable and static function in c.
  What is segmention fault.
  Write a program string Reverse with pointer
+Program to check whether a string is palindrome or not using bitwise operators
+Program to find odd / even numbers using bitwise operators
+Syntax for dynamic memory allocation
+Memory layout and Where will the source code be stored in the layout
