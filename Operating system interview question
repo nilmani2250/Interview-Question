@@ -16,3 +16,10 @@ What is virtual memory
 What is diffrence between RAM and ROM
 What is fragmentation
 What is advantage of multithedded programming
+Can you provide an example of multithreading?
+Ans. Multithreading allows multiple threads to run concurrently, improving performance and responsiveness.
+Multithreading is used to execute multiple tasks simultaneously.
+
+Threads share the same memory space, allowing for efficient communication and data sharing.
+
+Example: A web server handling multiple client requests concurrently using separate threads.
